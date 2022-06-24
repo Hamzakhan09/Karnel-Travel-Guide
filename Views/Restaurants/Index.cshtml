@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Restaurant>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_PriceRange)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_Image2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_Image3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant_Discription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City.City_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rest_Cat.ResCat_Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+@foreach (var item in Model)
+{
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Restaurant_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Restaurant_PriceRange)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Restaurant_Rating)
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Restaurant_Image)" width="100px" height="100px" />
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Restaurant_Image2)" width="100px" height="100px" />
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Restaurant_Image3)" width="100px" height="100px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Restaurant_Discription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City.City_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rest_Cat.ResCat_Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Restaurant_Id }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.Restaurant_Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    </tbody>
+}
+
+</table>

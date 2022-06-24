@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Hotel>
+@{
+    ViewBag.Title = "Hotel";
+    Layout = "~/Views/Shared/FrontEndLayout.cshtml";
+}
+
+<!----HeroooBg---->
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('../../Content/images/hotel-bg.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate pb-5 text-center">
+                <h1>Hotels</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!----HeroooBg---->
+
+
+<!----Tour list--->
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+                <h2 class="intro_title text-center">We have the best Hotel services</h2>
+            </div>
+
+            <div class="row  jumbotron">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="intro_text text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. </p>
+                    </div>
+                </div>
+            </div>
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="#" class="img" style="background-image: url(/Content/images/@item.Hotel_Image);">
+                            <span class="price">Price Range : @item.Hotel_PriceRange</span>
+                        </a>
+                        <div class="text p-4">
+                            <h3><a href="#">@item.Hotel_Name</a></h3>
+                            <p class="location"><span class="fa fa-map-marker"></span>@item.City.City_Name</p>
+                            <p class="location"><span>Discription : </span>@item.Hotel_Discription</p>
+                            <p class="mb-0"><a href="@Url.Action("Hotel_Detail","Details",new{id = item.Hotel_Id})" class="btn btn-primary px-4 py-3">Show Details</a></p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<!----Tour list--->

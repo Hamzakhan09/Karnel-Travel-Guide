@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Resort>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_PriceRange)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_Membership)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_Facilities)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_Image2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resort_Image3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City.City_Name)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+@foreach (var item in Model)
+{
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resort_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resort_PriceRange)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resort_Membership)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resort_Facilities)
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Resort_Image)" width="100px" height="100px" />
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Resort_Image2)" width="100px" height="100px" />
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Resort_Image3)" width="100px" height="100px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City.City_Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Resort_Id }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.Resort_Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    </tbody>
+}
+
+</table>

@@ -1,0 +1,454 @@
+﻿
+@{
+    ViewBag.Title = "AboutUs";
+    Layout = "~/Views/Shared/FrontEndLayout.cshtml";
+}
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
+
+<style>
+    .l1 {
+        font-size: 28px;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+
+        .l1 i {
+            background: #f15d30;
+            border-radius: 100%;
+            color: white;
+            margin: 0 0 0 15px;
+        }
+
+    .center {
+        display: grid;
+        height: 100%;
+        place-items: center;
+    }
+
+    .skill-bars {
+        padding: 25px 30px;
+        width: 600px;
+        background: #fff;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        margin-bottom: 45px;
+    }
+
+        .skill-bars .bar {
+            margin: 20px 0;
+        }
+
+            .skill-bars .bar:first-child {
+                margin-top: 0px;
+            }
+
+            .skill-bars .bar .info {
+                margin-bottom: 5px;
+            }
+
+                .skill-bars .bar .info span {
+                    font-weight: 500;
+                    font-size: 17px;
+                    opacity: 0;
+                    animation: showText 0.5s 1s linear forwards;
+                }
+
+    @@keyframes showText {
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .skill-bars .bar .progress-line {
+        height: 10px;
+        width: 100%;
+        background: #f0f0f0;
+        position: relative;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 10px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.05), 0 1px rgba(255,255,255,0.8);
+        animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    }
+
+    @@keyframes animate {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+
+    .bar .progress-line span {
+        height: 100%;
+        position: absolute;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        background: #f15d30;
+        animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    }
+
+    .bar .progress-line.html span {
+        width: 90%;
+    }
+
+    .bar .progress-line.css span {
+        width: 60%;
+    }
+
+    .bar .progress-line.jquery span {
+        width: 85%;
+    }
+
+    .bar .progress-line.python span {
+        width: 50%;
+    }
+
+    .bar .progress-line.mysql span {
+        width: 75%;
+    }
+
+    .progress-line span::before {
+        position: absolute;
+        content: "";
+        top: -10px;
+        right: 0;
+        height: 0;
+        width: 0;
+        border: 7px solid transparent;
+        border-bottom-width: 0px;
+        border-right-width: 0px;
+        border-top-color: #000;
+        opacity: 0;
+        animation: showText2 0.5s 1.5s linear forwards;
+    }
+
+    .progress-line span::after {
+        position: absolute;
+        top: -28px;
+        right: 0;
+        font-weight: 500;
+        background: #000;
+        color: #fff;
+        padding: 1px 8px;
+        font-size: 12px;
+        border-radius: 3px;
+        opacity: 0;
+        animation: showText2 0.5s 1.5s linear forwards;
+    }
+
+    @@keyframes showText2 {
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .progress-line.html span::after {
+        content: "90%";
+    }
+
+    .progress-line.css span::after {
+        content: "60%";
+    }
+
+    .progress-line.jquery span::after {
+        content: "85%";
+    }
+
+    .progress-line.python span::after {
+        content: "50%";
+    }
+
+    .progress-line.mysql span::after {
+        content: "75%";
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .carousel {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 30px;
+    }
+
+        .carousel .card {
+            color: #fff;
+            text-align: center;
+            margin: 20px 0;
+            line-height: 250px;
+            font-size: 90px;
+            font-weight: 600;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        }
+
+    
+
+    .owl-dots {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .owl-dot {
+        height: 15px;
+        width: 45px;
+        margin: 0 5px;
+        outline: none;
+        border-radius: 14px;
+        border: 2px solid #f15d30 !important;
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+
+        .owl-dot.active,
+        .owl-dot:hover {
+            background: #f15d30 !important;
+        }
+</style>
+
+
+<!----HeroooBg---->
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('../../Content/images/bg2.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate pb-5 text-center">
+                <h1>About Us</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!----HeroooBg---->
+
+
+<section class="ftco-section services-section">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate d-flex align-items-center">
+                <div class="w-100">
+                    <span class="subheading">Welcome to Karnel Travel Guide</span>
+                    <h2 class="mb-4">It's time to start your adventure</h2>
+                    <p>Karnel Travels is a Tours and Travels Company which provides the various transportation facilities between the cities like tourist spots, transportation between different cities in the country, also provides accommodations in hotels, etc. Also they provide the online facility where the customers can visit online, view and order for the tours and as well the transportation. Now they want to provide a website, through which they wan to attract the customers. They want to reach out to the customers by providing various information services like the list of tourist spot, information about the various hotels and restaurants, etc. They want the website to be a URL Specific. So they approached us to build a website for them.</p>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="l1"><i class="fa fa-diamond" style="padding: 15px; font-size: 28px;"></i></span>
+                            <h4 class="mt-2">Best Services</h4>
+                        </div>
+
+                        <div class="col-md-4">
+                            <span class="l1"><i class="fa fa-clock-o" style="padding: 15px; font-size: 28px;"></i></span>
+                            <h4 class="mt-2">24/7 Availability</h4>
+                        </div>
+
+                        <div class="col-md-4">
+                            <span class="l1"><i class="fa fa-star" style="padding: 15px; font-size: 28px;"></i></span>
+                            <h4 class="mt-2">5 Star Ratings</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services services-1 color-1 d-block img" style="background-image: url(images/services-1.jpg);">
+                            <div class="icon d-flex align-items-center justify-content-center"><span><img src="~/Content/images/TourSpots.png" /></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Tourist Spots</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services services-1 color-2 d-block img" style="background-image: url(images/services-2.jpg);">
+                            <div class="icon d-flex align-items-center justify-content-center"><span><img src="~/Content/images/travel_info.png" /></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Travel Arrangements</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services services-1 color-3 d-block img" style="background-image: url(images/services-3.jpg);">
+                            <div class="icon d-flex align-items-center justify-content-center"><span><img src="~/Content/images/hotel.png" /></span></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Hotel Bookings</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+                        <div class="services services-1 color-4 d-block img" style="background-image: url(images/services-4.jpg);">
+                            <div class="icon d-flex align-items-center justify-content-center"><img src="~/Content/images/resort1.png" /></div>
+                            <div class="media-body">
+                                <h3 class="heading mb-3">Resorts Bookings</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="ftco-section ftco-about img" style="background-image: url(/Content/images/bg4.jpg);">
+    <div class="overlay"></div>
+    <div class="container py-md-5">
+        <div class="row py-md-5">
+            <div class="col-md d-flex align-items-center justify-content-center">
+                <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+                    <span class="fa fa-play"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="ftco-section ftco-about ftco-no-pt img">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-12 about-intro">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(/Content/images/bg3.jpg);">
+                        </div>
+                    </div>
+                    <div class="col-md-6 pl-md-5 py-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <span class="subheading">About Us</span>
+                                <h2 class="mb-4">Make Your Tour Memorable and Safe With Us</h2>
+                                <p>Karnel Travels is a Tours and Travels Company which provides the various transportation facilities between the cities like tourist spots, transportation between different cities in the country, also provides accommodations in hotels, etc.</p>
+                                <p><a href="#" class="btn btn-primary">Book Your Destination</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="jumbotron">
+    <h1 class="text-center mb-3">Why Choose Us !!!</h1>
+    <div class="center">
+        <div class="skill-bars">
+            <div class="bar">
+                <div class="info">
+                    <span>Satisfied Clients</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Packages</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Accomodation</span>
+                </div>
+                <div class="progress-line jquery">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <span>Price Guarantee</span>
+                </div>
+                <div class="progress-line mysql">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 ">
+            <h2 class="mt-lg-5">We Have Investor Relations.</h2>
+            <p>Don't take our words for granted. See what all this hipe about.</p>
+        </div>
+
+        <div class="col-md-6">
+            <div class="wrapper mb-5">
+                <div class="carousel owl-carousel">
+                    <div class=" card-1">
+                        <img src="~/Content/images/company-1.png" />
+                    </div>
+                    <div class=" card-2">
+                        <img src="~/Content/images/company-2.png" />
+                    </div>
+                    <div class=" card-3">
+                        <img src="~/Content/images/company-1.png" />
+                    </div>
+                    <div class=" card-4">
+                        <img src="~/Content/images/company-2.png" />
+                    </div>
+                    <div class=" card-5">
+                        <img src="~/Content/images/company-2.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        $(".carousel").owlCarousel({
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false
+                }
+            }
+        });
+    </script>
+
+</div>

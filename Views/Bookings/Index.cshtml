@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Booking>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Book_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book_Cildren)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book_Adults)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookeddFor)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book_Cildren)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book_Adults)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookeddFor)
+        </td>
+       
+    </tr>
+}
+
+</table>
