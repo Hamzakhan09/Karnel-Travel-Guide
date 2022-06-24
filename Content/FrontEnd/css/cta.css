@@ -1,0 +1,180 @@
+/************** cta part css ****************/
+/* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+.cta_part {
+    position: relative;
+    background-image: url(../../images/cta_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part {
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part {
+      height: auto;
+    }
+  }
+  
+  /* line 15, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .cta_text h5 {
+    font-size: 20px;
+    font-family: "Kaushan Script", cursive;
+    color: #673B31;
+    margin-bottom: 35px;
+  }
+  
+  /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .cta_text h2 {
+    font-size: 47px;
+    color: #673B31;
+    margin-bottom: 65px;
+    line-height: 60px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .cta_text h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      line-height: 35px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .cta_text h2 {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .cta_text h2 {
+      font-size: 35px;
+      margin-bottom: 16px;
+    }
+  }
+  
+  /* line 41, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .cta_text p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 41, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .cta_text p {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* line 41, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .cta_text p {
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 41, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .cta_text p {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    /* line 56, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .input-group {
+      justify-content: center;
+    }
+  }
+  
+  /* line 60, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .input-group input {
+    height: 60px;
+    border: 0px solid transparent;
+    border-radius: 0;
+  }
+  
+  /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .input-group input:hover, .cta_part .input-group input:focus {
+    box-shadow: none;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 60, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .input-group input {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  /* line 72, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .input-group .subs_btn {
+    background-color: #673B31;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 72, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+    .cta_part .input-group .subs_btn {
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  
+  /* line 85, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_cta_part.scss */
+  .cta_part .input-group .form-control {
+    padding-left: 20px;
+  }
+
+  
+/* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
+.section_padding {
+    padding: 180px 0px;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
+    .section_padding {
+      padding: 100px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
+    .section_padding {
+      padding: 70px 0px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
+    .section_padding {
+      padding: 70px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
+    .section_padding {
+      padding: 70px 0px;
+    }
+  }
+  
