@@ -1,0 +1,253 @@
+﻿@model Karnel_Travel_Guide.Models.Cust_FeedBack
+@{
+    ViewBag.Title = "ContactUs";
+    Layout = "~/Views/Shared/FrontEndLayout.cshtml";
+}
+
+
+<style>
+    .form_1 ul {
+        padding: 0;
+        overflow: hidden;
+        margin-bottom: 0
+    }
+
+        .form_1 ul li {
+            width: 50%;
+            float: left;
+            padding: 0 8px 16px;
+            box-sizing: border-box
+        }
+
+            .form_1 ul li:last-child {
+                padding-bottom: 0
+            }
+
+            .form_1 ul li input {
+                border: 1px solid #bbb;
+                width: 100%;
+                padding: 10px;
+                border-radius: 3px
+            }
+
+                .form_1 ul li input[placeholder], .form_1 ul li select {
+                    color: #6b7a88
+                }
+
+            .form_1 ul li textarea {
+                border: 1px solid #bbb;
+                resize: none;
+                border-radius: 3px;
+                width: 100%
+            }
+
+            .form_1 ul li select {
+                border: 1px solid #bbb;
+                width: 100%;
+                border-radius: 3px
+            }
+
+    .form_book ul li:nth-child(13) {
+        width: 100%
+    }
+
+    .form_book ul li:nth-child(7) {
+        width: 50% !important
+    }
+
+    .form_1 ul li:nth-child(7), .form_book_1 ul li:nth-child(11) {
+        width: 100%
+    }
+
+        .form_1 ul li:nth-child(7) textarea {
+            height: 120px;
+            padding: 10px;
+            background: #fff
+        }
+
+    .form_1 ul li input[type=submit] {
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+        padding: 12px 15px;
+        border-radius: 2px;
+        display: inline-block;
+        background: #1aa5d8;
+        background: #ff6a00;
+        font-family: Quicksand,sans-serif;
+        border: 0;
+        text-transform: uppercase
+    }
+
+    .form {
+        background-size: contain
+    }
+
+    .form_booking {
+        background: url(../images/cloud.png) bottom center no-repeat #f2f8f9;
+        padding: 100px 0 45px;
+        background-size: contain
+    }
+
+    .form-spac {
+        padding: 100px 0
+    }
+</style>
+
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url(/Content/images/bg3.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate pb-5 text-center">
+                <h1>Contact us</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="ftco-section ftco-no-pb contact-section mb-4">
+    <div class="container">
+        <div class="row d-flex contact-info">
+            <div class="col-md-3 d-flex">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-map-marker"></span>
+                    </div>
+                    <h3 class="mb-2">Address</h3>
+                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-phone"></span>
+                    </div>
+                    <h3 class="mb-2">Contact Number</h3>
+                    <p><a href="tel://1234567920">+ 92 3048350098</a></p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-paper-plane"></span>
+                    </div>
+                    <h3 class="mb-2">Email Address</h3>
+                    <p><a href="mailto:info@yoursite.com">karneltravel@yoursite.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-globe"></span>
+                    </div>
+                    <h3 class="mb-2">Website</h3>
+                    <p><a href="#">www.karneltravelguide.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@using (Html.BeginForm("ContactUs", "FrontEnd", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container jumbotron">
+        <div class="rows">
+            <div class="spe-title col-md-12">
+                <h2 class="text-center">
+
+                    <span>Feedback</span>
+                </h2>
+                <div class="title-line">
+                    <div class="tl-1"></div>
+                    <div class="tl-2"></div>
+                    <div class="tl-3"></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12 form_1 wow fadeInLeft" data-wow-duration="1s" style="margin:0 auto;">
+                @using (Html.BeginForm("ContactUs", "FrontEnd", FormMethod.Post))
+                {
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                    <ul>
+                        <li>
+                            @Html.TextBoxFor(m => m.CusFeed_Name, new { placeholder = "Name" })
+
+
+                        </li>
+
+
+                        <li>
+                            @Html.TextBoxFor(m => m.CusFeed_Email, new { placeholder = "Mobile" })
+
+
+                        </li>
+                        <li>
+                            @Html.TextBoxFor(m => m.CusFeed_Phone, new { placeholder = "Email Id" })
+
+
+                        </li>
+                        <li>
+                            @Html.TextBoxFor(m => m.CusFeed_Message, new { placeholder = "Message" })
+
+
+                        </li>
+
+                        <li>
+
+                            <input type="submit" value="Submit" id="send_button" style="margin-left:50%;">
+
+                        </li>
+                        <li>
+                            <p class="mt5">
+                                <small>  @ViewBag.message</small><br />
+                                @Html.ValidationMessageFor(model => model.CusFeed_Name, "", new { @class = "text-danger" })<br />
+                                @Html.ValidationMessageFor(model => model.CusFeed_Email, "", new { @class = "text-danger" })<br />
+                                @Html.ValidationMessageFor(model => model.CusFeed_Phone, "", new { @class = "text-danger" })<br />
+                                @Html.ValidationMessageFor(model => model.CusFeed_Message, "", new { @class = "text-danger" })<br />
+                            </p>
+
+
+                        </li>
+
+                    </ul>
+
+                }
+
+
+
+            </div>
+        </div>
+    </div>
+
+}
+
+
+<div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.1393054807736!2d67.03085831452483!3d24.92732384871451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1640161639755!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+
+<section class="ftco-intro ftco-section ftco-no-pt">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <div class="img" style="background-image: url(images/bg_2.jpg);">
+                    <div class="overlay"></div>
+                    <h2>We Are Pacific A Travel Agency</h2>
+                    <p>We can manage your dream building A small river named Duden flows by their place</p>
+                    <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Ask For A Quote</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Karnel Travel Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="~/Content/images/logo.png">
+
+    <!---Css file links---->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/animate.css">
+
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/flaticon.css">
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/style.css">
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/main_styles.css">
+    <link rel="stylesheet" href="~/Content/FrontEnd/css/responsive.css">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+
+    <!---Navbar---->
+    <header class="header">
+
+        <!-- Top Bar -->
+
+        <div class="top_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex flex-row">
+                        <div class="phone">+92 3452400918</div>
+                        <div class="social">
+                            <ul class="social_list">
+                                <li class="social_list_item"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                <li class="social_list_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li class="social_list_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li class="social_list_item"><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                <li class="social_list_item"><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                <li class="social_list_item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="user_box ml-auto">
+                            <ul class="navbar-nav navbar-right">
+                                @{
+                                    if (Session["u_img"] == null)
+                                    {
+
+                                        <li class="nav-item dropdown mt-2" style="color:white; font-size:17px; font-weight:900;">
+                                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                               Accounts
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item text-black-50" href="@Url.Action("LogIn","FrontEnd")">Login</a>
+                                                <a class="dropdown-item text-black-50" href="@Url.Action("UserSignup","UserReg")">SignUp</a>
+                                                </div>
+                                            </li>
+                                                }
+                                                else
+                                                {
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="mr-2 d-none d-lg-inline text-gray-600 small text-white fw-bold">@Session["u_name"]</span>
+                                                <img class="img-circle" style="width:37px;height:35px;border-radius:50%;" src="~/Content/images/@Session["u_img"]">
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                <a class="dropdown-item text-black-50" href="#">Profile</a>
+                                                @Html.ActionLink("Logout", "Logout", "Frontend", new { @class = "dropdown-item text-black-50" })
+                                            </div>
+                                        </li>
+                                        @*<li class="nav-item dropdown">
+                    <a class="nav-link text-white  fw-bold dropdown-toggle" href="#" id="dropdown" role="button"
+                       data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                        <span class="mr-2 d-none d-lg-inline text-gray-600 small text-white fw-bold">@Session["u_name"]</span>
+                        <img class="img-circle" style="width:37px;height:35px;border-radius:50%;" src="~/Content/images/@Session["u_img"]">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Profile
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            @Html.ActionLink("Logout", "Logout", "Frontend", new { @class = "dropdown-item" })
+                        </li>
+                    </ul>
+                </li>*@
+                                        }
+                                        }
+                                    </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+
+        <nav class="main_nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+                        <div class="logo_container">
+                            <div class="logo"><a href="@Url.Action("Home","FrontEnd")"><img src="~/Content/images/logo.png" alt=""></a></div>
+                        </div>
+                        <div class="main_nav_container ml-auto">
+                            <ul class="main_nav_list">
+                                <li class="main_nav_item"><a href="@Url.Action("Home","FrontEnd")">Home</a></li>
+
+                                <li class="main_nav_item dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Information
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item text-black-50" href="@Url.Action("TouristSpot","Information")">Tourist Spots</a>
+                                        <a class="dropdown-item text-black-50" href="@Url.Action("Travel","Information")">Traveling</a>
+                                        <a class="dropdown-item text-black-50" href="@Url.Action("Hotel","Information")">Hotels</a>
+                                        <a class="dropdown-item text-black-50" href="@Url.Action("Restaurant","Information")">Restaurants</a>
+                                        <a class="dropdown-item text-black-50" href="@Url.Action("Resort","Information")">Resorts</a>
+                                    </div>
+                                </li>
+                                <li class="main_nav_item"><a href="@Url.Action("Search","FrontEnd")">Search</a></li>
+                                <li class="main_nav_item"><a href="@Url.Action("AboutUs","FrontEnd")">AboutUs</a></li>
+                                <li class="main_nav_item"><a href="@Url.Action("ContactUs","FrontEnd")">ContactUs</a></li>
+                            </ul>
+                        </div>
+                        <div class="content_search ml-lg-0 ml-auto">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 width="17px" height="17px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                            <g>
+                            <g>
+                            <g>
+                            <path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+												s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+												C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+												M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+												c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z" />
+											</g>
+										</g>
+                            <g>
+                            <g>
+                            <path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+												c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+												C-2.019,484.77-2.019,497.865,6.057,505.942z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+                        </div>
+
+                        <form id="search_form" class="search_form bez_1">
+                            <input type="search" class="search_content_input bez_1">
+                        </form>
+
+                        <div class="hamburger">
+                            <i class="fa fa-bars trans_200"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="menu trans_500">
+        <div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+            <div class="menu_close_container"><div class="menu_close"></div></div>
+            <div class="logo menu_logo"><a href="#"><img src="~/Content/images/logo.png.png" alt=""></a></div>
+            <ul>
+                <li class="menu_item"><a href="#">home</a></li>
+                <li class="menu_item"><a href="about.html">about us</a></li>
+                <li class="menu_item"><a href="offers.html">offers</a></li>
+                <li class="menu_item"><a href="blog.html">news</a></li>
+                <li class="menu_item"><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!------End navbar------>
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <!---Footer---->
+
+    <footer class="ftco-footer bg-bottom ftco-no-pt">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">About</h2>
+                        <p>Karnel Travels is a Tours and Travels Company which provides the various transportation facilities between the cities like tourist spots, transportation between different cities in the country, also provides accommodations in hotels, etc.</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+                        <h2 class="ftco-heading-2">Infromation</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="@Url.Action("TouristSpot","Information")" class="py-2 d-block">Tourist Spots</a></li>
+                            <li><a href="@Url.Action("Travel","Information")" class="py-2 d-block">Travels</a></li>
+                            <li><a href="@Url.Action("Hotels","Information")" class="py-2 d-block">Hotels</a></li>
+                            <li><a href="@Url.Action("Restaurants","Information")" class="py-2 d-block">Restaurants</a></li>
+                            <li><a href="@Url.Action("Resorts","Information")" class="py-2 d-block">Resorts</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Experience</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Adventure</a></li>
+                            <li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
+                            <li><a href="#" class="py-2 d-block">Beach</a></li>
+                            <li><a href="#" class="py-2 d-block">Nature</a></li>
+                            <li><a href="#" class="py-2 d-block">Camping</a></li>
+                            <li><a href="#" class="py-2 d-block">Party</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5 border-left">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map-marker"></span><span class="text">A-563 Shahrah-e-Usman, Sector 11-A Sector 11 B North Karachi Twp, Karachi, Karachi City, Sindh 75850</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+92 3202082369</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">KarnelTravel@yourdomain.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--End Footer---->
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+
+
+
+    <script src="~/Content/FrontEnd/js/jquery.min.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/Content/FrontEnd/js/popper.min.js"></script>
+    <script src="~/Content/FrontEnd/js/bootstrap.min.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery.easing.1.3.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery.waypoints.min.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery.stellar.min.js"></script>
+    <script src="~/Content/FrontEnd/js/owl.carousel.min.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery.animateNumber.min.js"></script>
+    <script src="~/Content/FrontEnd/js/bootstrap-datepicker.js"></script>
+    <script src="~/Content/FrontEnd/js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="~/Content/FrontEnd/js/google-map.js"></script>
+    <script src="~/Content/FrontEnd/js/main.js"></script>
+    <script src="~/Content/FrontEnd/js/jquery-3.2.1.min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="~/Content/FrontEnd/js/custom.js"></script>
+
+</body>
+</html>

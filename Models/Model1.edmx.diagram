@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e9069ac557d43e799a9fc3b53c19a5d" Name="Diagram1" ZoomLevel="91">
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Booking" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.City" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Cust_FeedBack" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Cust_Subs" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Hotel" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Resort" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Rest_Cat" Width="1.5" PointX="3.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Restaurant" Width="1.5" PointX="6" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.TouristSpot" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.Travel" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.User" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KarnelTravelDatabaseModel.User_Registration" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="KarnelTravelDatabaseModel.FK__Hotel__Hotel_Cit__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="KarnelTravelDatabaseModel.FK__Resort__Resort_C__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="KarnelTravelDatabaseModel.FK__Restauran__Resta__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="KarnelTravelDatabaseModel.FK__TouristSp__Tour___2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="KarnelTravelDatabaseModel.FK__Restauran__Resta__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

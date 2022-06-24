@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.TouristSpot>
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/FrontEndLayout.cshtml";
+}
+<style>
+   .example .form-control[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+
+    .example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #f15d30;
+        color: white;
+        font-size: 17px;
+       border:none;
+        cursor: pointer;
+    }
+
+    .example::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+
+
+
+<section class="hero-wrap" style="background-image: url(/Content/images/bg_5.jpg); height:400px;"> 
+    <div class="overlay">
+        <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1>Search</h1>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="jumbotron">
+    <div class="example">
+        @using (Html.BeginForm("Search", "FrontEnd", FormMethod.Get))
+        {
+            @Html.TextBox("Search", "", new { @placeholder = "Searching...", @class = "form-control" })
+            <button type="submit">Search</button>
+
+            @Html.RadioButton("search", "Tour_Designation", true)<b>Tour Designation</b>
+            @Html.RadioButton("search", "")<b>Tour Price</b>
+        }
+    </div>
+</div>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+
+
+
+            @foreach (var item in Model)
+            {
+
+
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="#" class="img" style="background-image: url(/Content/images/@item.Tour_Image);">
+                            <span class="price">@item.Tour_Price</span>
+                        </a>
+                        <div class="text p-4">
+                            <h3><a href="#">@item.Tour_Designation</a></h3>
+                            <p class="location"><span class="fa fa-map-marker"></span>@item.City.City_Name</p>
+                            <p class="location"><span>Discription : </span>@item.Tour_Discription</p>
+                            <p class="mb-0"><a href="@Url.Action("Tourist_Detail","Details",new{id = item.Tour_Id})" class="btn btn-primary px-4 py-3">Show Details</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+
+        </div>
+    </div>
+</section>
+
+
+
+

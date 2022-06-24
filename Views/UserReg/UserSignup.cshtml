@@ -1,0 +1,117 @@
+﻿@model Karnel_Travel_Guide.Models.User_Registration
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Karnel Travel Guide | Signup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/Content/Login Content/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/Content/Login Content/css/style.css">
+
+    <style>
+        .form-submit{
+            cursor:pointer;
+        }
+        .control-label{
+            font-size:20px;
+            margin:5px;
+        }
+    </style>
+
+
+</head>
+<body>
+    @using (Html.BeginForm("UserSignup", "UserReg", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="text"><span style="color:  #673B31;">KARNEL</span>TRAVLES</div>
+        <div class="text1">
+            <p>
+                Karnel Travels is a Tours and Travels Company which provides the various transportation facilities
+                between the cities like tourist spots, transportation between different cities in the country, also
+                provides accommodations in hotels, etc.
+            </p>
+        </div>
+
+        <section class="signup">
+
+            <div class="content">
+                <div class="signup-content">
+                    <h2 class="form-title">Signup !!!</h2>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserReg_UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UserReg_UserName, new { htmlAttributes = new { @class = "form-input" } })
+                            @Html.ValidationMessageFor(model => model.UserReg_UserName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserReg_Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UserReg_Email, new { htmlAttributes = new { @class = "form-input" } })
+                            @Html.ValidationMessageFor(model => model.UserReg_Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserReg_Mobile, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UserReg_Mobile, new { htmlAttributes = new { @class = "form-input" } })
+                            @Html.ValidationMessageFor(model => model.UserReg_Mobile, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserReg_Image, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            <input type="file" name="userimg" class="form-input" />
+                            @Html.ValidationMessageFor(model => model.UserReg_Image, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserReg_Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UserReg_Password, new { htmlAttributes = new { @class = "form-input" } })
+                            @Html.ValidationMessageFor(model => model.UserReg_Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UserReg_CPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UserReg_CPassword, new { htmlAttributes = new { @class = "form-input" } })
+                            @Html.ValidationMessageFor(model => model.UserReg_CPassword, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Signup" class="form-submit" />
+                        </div>
+                    </div>
+
+                    <p class="loginhere">
+                        Have already an account ? <a href="@Url.Action("LogIn","FrontEnd")" class="loginhere-link">Login Here</a>
+                    </p>
+
+                </div>
+                </div>
+
+        </section>
+            }
+    </body>
+</html>

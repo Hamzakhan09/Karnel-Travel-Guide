@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Travel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-responsive">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Travel_vehicles)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Travel_Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Travel_Capacity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Travel_Rent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Travel_Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Travel_Image2)
+        </th>
+        <th>Actions</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Travel_vehicles)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Travel_Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Travel_Capacity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Travel_Rent)
+        </td>
+        <td>
+            <img src="~/Content/images/@Url.Content(item.Travel_Image)" width="100px" height="100px" />
+        </td>
+        <td>
+            <img src="~/Content/images/@Url.Content(item.Travel_Image2)" width="100px" height="100px" />
+        </td>
+        <td>
+            
+            @Html.ActionLink("Edit", "Edit", new { id=item.Tavel_Id }, new { @class = "btn btn-success" })<br />
+               
+            @Html.ActionLink("Delete", "Delete", new { id=item.Tavel_Id }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

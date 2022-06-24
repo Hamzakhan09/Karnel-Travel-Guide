@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Hotel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel_PriceRange)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel_Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel_Image2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel_Image3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel_Discription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City.City_Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+@foreach (var item in Model)
+{
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hotel_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hotel_PriceRange)
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Hotel_Image)" width="100px" height="100px" />
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Hotel_Image2)" width="100px" height="100px" />
+            </td>
+            <td>
+                <img src="~/Content/images/@Url.Content(item.Hotel_Image3)" width="100px" height="100px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hotel_Discription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City.City_Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Hotel_Id }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.Hotel_Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    </tbody>
+}
+
+</table>

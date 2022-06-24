@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Karnel_Travel_Guide.Models.Resort>
+@{
+    ViewBag.Title = "Resort";
+    Layout = "~/Views/Shared/FrontEndLayout.cshtml";
+}
+
+<!----HeroooBg---->
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('../../Content/images/resort-bg.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate pb-5 text-center">
+                <h1>Resorts</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!----HeroooBg---->
+<!----Tour list--->
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+                <h2 class="intro_title text-center">We have the best resorts services</h2>
+            </div>
+
+            <div class="row jumbotron">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="intro_text text-center">
+                        <p>A Resort Hotel is a full-service lodging facility, intended primarily for vacationers and usually located in places frequented for relaxation or recreation, such as beaches, seashores, scenic or historic areas, ski parks, spas. The difference to a 'simple' hotel lies in the range of services and amenities offered</p>
+                    </div>
+                </div>
+            </div>
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="#" class="img" style="background-image: url(/Content/images/@item.Resort_Image);">
+                            <span class="price">Price Range : @item.Resort_PriceRange</span>
+                        </a>
+                        <div class="text p-4">
+                            <span class="days">Membership : @item.Resort_Membership</span>
+                            <h3><a href="#">@item.Resort_Name</a></h3>
+                            <p class="location"><span class="fa fa-map-marker"></span>@item.City.City_Name</p>
+                            <p class="location"><span style="font-size:14px;">Facilities : </span>@item.Resort_Facilities</p>
+                            <p class="mb-0"><a href="@Url.Action("Resort_Detail","Details",new{id = item.Resort_Id})" class="btn btn-primary px-4 py-3">Show Details</a></p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<!----Tour list--->
