@@ -1,0 +1,378 @@
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\Karnel Travel Guide.dll.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\Karnel Travel Guide.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\Karnel Travel Guide.pdb
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\csc.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\csc.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\csc.rsp
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\csi.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\csi.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\csi.rsp
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.AppContext.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Console.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.Compression.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Net.Http.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.ValueTuple.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\vbc.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\vbc.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\vbc.rsp
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\EntityFramework.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\EntityFramework.SqlServer.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Helpers.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Mvc.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Razor.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Razor.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\EntityFramework.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\EntityFramework.SqlServer.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Razor.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Razor.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Helpers.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\System.Web.Mvc.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.csproj.AssemblyReference.cache
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.csproj.CoreCompileInputs.cache
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.csproj.CopyComplete
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.pdb
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\Karnel Travel Guide.dll.config
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\Karnel Travel Guide.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\Karnel Travel Guide.pdb
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\EntityFramework.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\EntityFramework.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.dll
+C:\Users\asp\Desktop\Karnel Travel Guide\obj\Debug\Karnel Travel Guide.pdb
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.dll.config
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.pdb
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.exe
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.exe.config
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.rsp
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.exe
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.exe.config
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.rsp
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.AppContext.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Console.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Net.Http.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.exe
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.exe.config
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.rsp
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.dll
+C:\Users\asp\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.pdb
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.dll.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.pdb
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.rsp
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.rsp
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.AppContext.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Console.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Net.Http.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.rsp
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.SqlServer.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Helpers.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Mvc.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Razor.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Razor.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.SqlServer.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Razor.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Razor.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Helpers.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Mvc.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.AssemblyReference.cache
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.CoreCompileInputs.cache
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.CopyComplete
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.dll
+C:\Users\HAROON TRADERS\OneDrive\Desktop\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.pdb
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.dll.config
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\Karnel Travel Guide.pdb
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.exe
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.exe.config
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csc.rsp
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.exe
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.exe.config
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\csi.rsp
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.AppContext.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Collections.Immutable.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Console.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Globalization.Calendars.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.Compression.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.FileSystem.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Net.Http.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Net.Sockets.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.ValueTuple.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XPath.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.exe
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.exe.config
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\vbc.rsp
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\VBCSCompiler.exe
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\roslyn\VBCSCompiler.exe.config
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.SqlServer.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.Web.Infrastructure.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Helpers.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Mvc.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Razor.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Deployment.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Razor.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\EntityFramework.SqlServer.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Razor.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Deployment.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Webpages.Razor.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Helpers.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\System.Web.Mvc.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.AssemblyReference.cache
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.CoreCompileInputs.cache
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.csproj.CopyComplete
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.dll
+E:\Games\KARNEL TRAVEL GUIDE\E-Project\obj\Debug\Karnel Travel Guide.pdb
